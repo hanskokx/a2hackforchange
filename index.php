@@ -20,6 +20,7 @@
 		<script src="jquery/js/jquery-1.9.1.js"></script>
 		<script src="jquery/js/jquery-ui-1.10.2.custom.js"></script>
 		<script type="text/javascript">
+		$(window).scroll(function () {
 		window.setInterval(function(){
 			var top = $(document).scrollTop();
 			//document.getElementById("topheader").innerHTML = top;
@@ -29,8 +30,8 @@
 		    else {
 		    	$("#header").removeClass("navup");
 		    }
-			}, 50);
-
+			}, 10);
+		});
 		</script>
 	</head>
 <body>
