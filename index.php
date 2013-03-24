@@ -95,7 +95,6 @@
 	</head>
 <body>
 
-<div id="blast"></div>
 <div id="topheader"><div id="headerimg"></div></div>
 <div id="header" class="shadow">
 	<div class="nav">
@@ -114,27 +113,21 @@
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1>What</h1>
 		<span class="text">
-National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
-
-The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live. 
+			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
+			<br /><br />
+			The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live.
+			<br /><br />
+			Ann Arbor is proud to participate in this national event by hosting our very own A2 Hack for Change.  Occuring simultaneously with dozens of events throughout the country, we aim to show the rest of the world what Ann Arbor is made of.
+			<br /><br />
+			By leveraging public datasets, the goal of the A2 Hack for Change is to improve the lives of all the peoples in and around Ann Arbor.  Creativity and ingenuity are going to play key roles in determining how the community can best be served by what we aim to create.
 		</span>
 
 	<div class="divider"></div>
 	<a name="event"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1>Why</h1>
+	<h1>The Event</h1>
 		<span class="text">
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas posuere sodales. Vivamus porta risus vel felis tincidunt a aliquet ipsum rutrum. Suspendisse auctor purus mauris. Duis eu dui imperdiet metus accumsan lobortis vitae sit amet justo. Integer interdum varius eros, et malesuada urna interdum at. Nullam placerat, sapien id convallis dictum, neque sapien tempus augue, vitae imperdiet quam risus et ante. Vestibulum pulvinar viverra mi, ac viverra lacus commodo sed. Vivamus ac enim et dui ultrices sodales. Proin malesuada fringilla urna, at placerat arcu faucibus a. Sed et est ut est ultrices congue non consequat mauris. Vestibulum congue vulputate quam vitae vehicula. Fusce blandit mollis mollis. Suspendisse sed odio in nunc tincidunt commodo nec quis ligula. Sed elit quam, imperdiet ac suscipit quis, blandit quis lacus. Duis nec feugiat ligula.
-
-Suspendisse porttitor pellentesque tincidunt. Aenean blandit lacinia nulla, eu rutrum orci blandit quis. Sed nibh diam, auctor vel pulvinar a, cursus eget est. Pellentesque vestibulum elementum magna, eu euismod dui imperdiet vel. Aliquam posuere augue eu turpis imperdiet volutpat eleifend quam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium ante aliquet nisi ullamcorper id mollis turpis adipiscing. Nullam vestibulum dui nulla.
-
-Vivamus vulputate nibh sit amet ipsum egestas sodales. Donec id metus lectus, sit amet ornare ipsum. Sed dignissim massa sed magna blandit eget faucibus dui pellentesque. Phasellus et sapien ut purus auctor accumsan sed non felis. Cras non magna ante, consequat laoreet metus. Nullam magna augue, dignissim non adipiscing ac, condimentum ac est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-Etiam at justo id magna egestas semper. Duis eleifend elementum velit cursus porttitor. Sed ac risus in odio elementum placerat. Maecenas interdum massa eu urna placerat condimentum. Cras rutrum gravida pellentesque. Aliquam vitae mi arcu. Ut a lacus eros. Aenean arcu risus, suscipit et laoreet a, vehicula vitae est.
-
-Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turpis, adipiscing a vulputate viverra, tristique ut mi. Fusce fringilla neque nisl, at ultrices nunc. Proin tincidunt rhoncus pulvinar. In eu dictum est. Quisque nulla dolor, commodo nec facilisis vitae, elementum nec dolor. Maecenas malesuada iaculis velit, id dapibus dui dignissim ac. Mauris quis tempus ante. Maecenas ligula enim, aliquam ut feugiat ut, mollis ac elit. Nam quis neque eu purus elementum pharetra ac eget ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
 		</span>
 
 	<div class="divider"></div>
