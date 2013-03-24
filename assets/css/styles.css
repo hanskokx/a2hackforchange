@@ -18,7 +18,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #content {
-	margin-top: 75px;
+	margin-top: 360px;
 	width: 100%;
 	position: relative;
 	display: block;
@@ -54,9 +54,9 @@ h1 {
 }
 
 #topheader {
-	height: 65px;
+	height: 347px;
 	width: 100%;
-	background-color: #b82a1c;
+	background-color: #FFCC00;
 	color: #fff;
 	position: absolute;
 	margin: 0;
@@ -71,18 +71,20 @@ h1 {
 	background-color: #fee60b;
 	overflow: hidden;
 	text-align: center;
-	position: fixed;
-	top: 65px;
+	position: absolute;
+	top: 347px;
 	left: 0;
 	z-index:10;
 	display: block;
 }
 
 .navup {
+	position: fixed !important;
 	top: 0px !important;
 }
 .navdown {
-	top: 70px !important;
+	top: 347px !important;
+	position: absolute !important;
 }
 
 .nav {

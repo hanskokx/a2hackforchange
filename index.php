@@ -24,7 +24,7 @@
 		
 			var top = $(document).scrollTop();
 			//document.getElementById("topheader").innerHTML = top;
-			if (top > 49) {
+			if (top > 347) {
 		        $("#header").addClass("navup");
 		    }
 		    else {
