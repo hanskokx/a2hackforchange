@@ -32,7 +32,10 @@
 		    else {
 		    	$("#header").removeClass("navup");
 		    }
-		    if (top < 610 && top > 300)
+
+		    // The following will highlight the buttons on scroll. if the height of the text changes,
+		    // all of the following numbers may be adjusted to match to new the new pixel heights.
+		    if (top > 347 && top < 610)
 		    {
 		    	$("#about_btn").addClass("highlight");
 		    }
