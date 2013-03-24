@@ -149,7 +149,44 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 		</span>
 
 <p style="line-height: 35px">&nbsp;</p>
-</div>
+
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
+        var mapOptions = {
+          zoom: 6,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
+        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Tech Brewery, 1327 Jones Drive'
+        });
+        infowindow.open(map,marker);
+        google.maps.event.addListener(marker, 'click', function() {
+          infowindow.open(map,marker);
+        });
+        });
+    </script>
+
+<h1>Location</h1>
+<span class="text">
+	<center><div id="map-canvas"/></div><center>
+</span>
+
+</div><!-- end content -->
 
 <div id="footer">
 	<a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change"><span id="contact"></span></a>
