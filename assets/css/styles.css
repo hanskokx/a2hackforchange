@@ -56,7 +56,7 @@ h1 {
 #topheader {
 	height: 347px;
 	width: 100%;
-	background-color: #FFCC00;
+	background-color: #fee60b;
 	color: #fff;
 	position: absolute;
 	margin: 0;
@@ -82,9 +82,9 @@ h1 {
 	position: fixed !important;
 	top: 0px !important;
 }
-.navdown {
-	top: 347px !important;
-	position: absolute !important;
+
+.highlight {
+	background-color: #A3A3A3 !important;
 }
 
 .nav {

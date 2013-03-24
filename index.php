@@ -32,6 +32,35 @@
 		    else {
 		    	$("#header").removeClass("navup");
 		    }
+		    if (top < 610 && top > 300)
+		    {
+		    	$("#about_btn").addClass("highlight");
+		    }
+		    else{
+		    	$("#about_btn").removeClass("highlight");
+		    }
+		    if (top > 610 && top < 1300)
+		    {
+		    	$("#event_btn").addClass("highlight");
+		    }
+		    else{
+		    	$("#event_btn").removeClass("highlight");
+		    }
+		    if (top > 1300 && top < 2000)
+		    {
+		    	$("#get_involved_btn").addClass("highlight");
+		    }
+		    else{
+		    	$("#get_involved_btn").removeClass("highlight");
+		    }
+		    if (top > 2000)
+		    {
+		    	$("#faq_btn").addClass("highlight");
+		    }
+		    else{
+		    	$("#faq_btn").removeClass("highlight");
+		    }
+
 			
 		});
 		</script>
