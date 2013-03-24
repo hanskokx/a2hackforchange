@@ -20,7 +20,10 @@
 <body>
 
 <div id="blast"></div>
+<<<<<<< HEAD
 <div id="topheader"></div>
+=======
+>>>>>>> 4dc209e77f46f2bfe709b2d0eeeafba27596cc3a
 <div id="header" class="shadow">
 	<div class="nav">
 		<a href="#what"><span id="what_btn" class="nav_button">What</span></a>
