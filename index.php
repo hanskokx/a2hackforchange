@@ -21,16 +21,16 @@
 		<script src="jquery/js/jquery-ui-1.10.2.custom.js"></script>
 		<script type="text/javascript">
 		$(window).scroll(function () {
-		window.setInterval(function(){
+		
 			var top = $(document).scrollTop();
 			//document.getElementById("topheader").innerHTML = top;
-			if (top > 69) {
+			if (top > 49) {
 		        $("#header").addClass("navup");
 		    }
 		    else {
 		    	$("#header").removeClass("navup");
 		    }
-			}, 10);
+			
 		});
 		</script>
 	</head>
