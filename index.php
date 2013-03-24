@@ -16,14 +16,27 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
+		<link href="jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		<script src="jquery/js/jquery-1.9.1.js"></script>
+		<script src="jquery/js/jquery-ui-1.10.2.custom.js"></script>
+		<script type="text/javascript">
+		window.setInterval(function(){
+			var top = $(document).scrollTop();
+			//document.getElementById("topheader").innerHTML = top;
+			if (top > 69) {
+		        $("#header").addClass("navup");
+		    }
+		    else {
+		    	$("#header").removeClass("navup");
+		    }
+			}, 50);
+
+		</script>
 	</head>
 <body>
 
 <div id="blast"></div>
-<<<<<<< HEAD
 <div id="topheader"></div>
-=======
->>>>>>> 4dc209e77f46f2bfe709b2d0eeeafba27596cc3a
 <div id="header" class="shadow">
 	<div class="nav">
 		<a href="#what"><span id="what_btn" class="nav_button">What</span></a>

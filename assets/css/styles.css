@@ -18,6 +18,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #content {
+	margin-top: 75px;
 	width: 100%;
 	position: relative;
 	display: block;
@@ -51,6 +52,18 @@ h1 {
 	left: 0;
 }
 
+#topheader {
+	height: 65px;
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+	position: absolute;
+	margin: 0;
+	top:0;
+	left:0;
+	display: block;
+}
+
 #header {
 	height: 65px;
 	width: 100%;
@@ -58,10 +71,17 @@ h1 {
 	overflow: hidden;
 	text-align: center;
 	position: fixed;
-	top: 0;
+	top: 65px;
 	left: 0;
 	z-index:10;
 	display: block;
+}
+
+.navup {
+	top: 0px !important;
+}
+.navdown {
+	top: 70px !important;
 }
 
 .nav {
