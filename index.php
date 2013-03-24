@@ -12,11 +12,12 @@
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="./assets/css/styles.css" media="all" type="text/css" />
 
-		
+		<!-- Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
+		<!-- jQuery -->
 		<link href="assets/js/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<script src="assets/js/jquery/js/jquery-1.9.1.js"></script>
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
