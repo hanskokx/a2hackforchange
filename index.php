@@ -154,6 +154,7 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 
     <script type="text/javascript">
 		$(document).ready(function() {
+		//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
         var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
         var mapOptions = {
           zoom: 6,
@@ -185,6 +186,7 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 <span class="text">
 	<center><div id="map-canvas"/></div><center>
 </span>
+
 
 </div><!-- end content -->
 
