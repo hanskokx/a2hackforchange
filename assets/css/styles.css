@@ -37,6 +37,7 @@ h1 {
 	font-family: 'Lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
 	width: 75%;
 	max-width: 800px;
+	min-width: 200px;
 	display: block;
 	position: relative;
 	margin: 0px auto;
@@ -62,6 +63,29 @@ h1 {
 	top:0;
 	left:0;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#headerimg {
+	background-image:url('../images/banner_bg4.png');
+	background-repeat: no-repeat;
+	left: 5px;
+	width: 910px;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+}
+@media only screen and (min-width: 1000px){ 
+	#headerimg {
+		left:17%;
+	}
+}
+@media only screen and (min-width: 1400px){ 
+	#headerimg {
+		left:28%;
+	}
 }
 
 #header {
@@ -72,7 +96,7 @@ h1 {
 	text-align: center;
 	position: absolute;
 	top: 347px;
-	left: 0;
+	right: 0;
 	z-index:10;
 	display: block;
 }

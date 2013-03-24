@@ -71,7 +71,7 @@
 <body>
 
 <div id="blast"></div>
-<div id="topheader"></div>
+<div id="topheader"><div id="headerimg"></div></div>
 <div id="header" class="shadow">
 	<div class="nav">
 		<div id="left-grad"></div>
