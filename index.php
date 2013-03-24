@@ -16,9 +16,9 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-		<link href="jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
-		<script src="jquery/js/jquery-1.9.1.js"></script>
-		<script src="jquery/js/jquery-ui-1.10.2.custom.js"></script>
+		<link href="assets/js/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+		<script src="assets/js/jquery/js/jquery-1.9.1.js"></script>
+		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
 		<script type="text/javascript">
 		$(window).scroll(function () {
 		
@@ -120,9 +120,6 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 <div id="footer">
 	<a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change"><span id="contact"></span></a>
 </div>
-
-<!-- Javascript last, so the page loads supa-quick -->
-	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
 </body>
 </html>r
