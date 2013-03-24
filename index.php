@@ -2,11 +2,12 @@
 
 <!DOCTYPE html>
 	<head>
+		<title>A2 Hack for Change</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 			<!--[if lt IE 9]>
 				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-			<![endif]
+			<![endif]-->
 
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="./assets/css/styles.css" media="all" type="text/css" />
@@ -16,6 +17,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
+		<!-- jQuery -->
 		<link href="assets/js/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<script src="assets/js/jquery/js/jquery-1.9.1.js"></script>
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
@@ -43,7 +45,7 @@
 		<div id="left-grad"></div>
 		<a href="#what"><span id="about_btn" class="nav_button">About</span></a>
 		<a href="#event"><span id="event_btn" class="nav_button">Event</span></a>
-		<span class="nav_div">&nbsp</span>
+		<span class="nav_div">&nbsp;</span>
 		<a href="#get_involved"><span id="get_involved_btn" class="nav_button">Help Out</span></a>
 		<a href="#faq"><span id="faq_btn" class="nav_button">FAQ</span></a>
 		<div id="right-grad"></div>
@@ -122,4 +124,4 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 </div>
 
 </body>
-</html>r
+</html>
