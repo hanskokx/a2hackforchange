@@ -147,6 +147,7 @@
 
 <div id="content">
 	<a name="about"></a>
+	<p style="line-height: 150px">&nbsp;</p>
 	<h1 id="about">What's happening?</h1>
 		<span class="text">
 			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
@@ -160,6 +161,7 @@
 
 	<div class="divider"></div>
 	<a name="event"></a>
+	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="event">The Event</h1>
 		<span class="text">
 			A2 Hack for Change will occur simultaneously as dozens of other Hack for Change events on the National Day of Civic Hacking, June 1-2, 2013.
@@ -181,6 +183,7 @@
 
 	<div class="divider"></div>
 	<a name="get_involved"></a>
+	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="who">Get involved</h1>
 		<span class="text">
 			There are many ways you can get involved in A2 Hack for Change. Our success will lie in government agencies, companies, organizations, universities and citizens working together to make a difference.
@@ -191,6 +194,7 @@
 
 	<div class="divider"></div>
 	<a name="faq"></a>
+	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="faq">FAQ</h1>
 		<span class="text">
 			<h2>What is A2 Hack for Change and the National Day of Civic Hacking?</h2>
@@ -224,6 +228,8 @@
 				A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
 				<center><div id="map-canvas"/></div><center>
 		</span>
+
+<p style="line-height: 35px">&nbsp;</p>
 
 </div><!-- end content -->
 
