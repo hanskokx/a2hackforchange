@@ -10,19 +10,25 @@
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
-			$('#mapimage').hide();
-		$('#front').click(function() {
-			
-        	$("#logo").toggle();
-        	$("#mapimage").toggle();
-        });
+			$('#side2').hide();
+			$('#front').click(function() {
+        		$("#side1").toggle();
+        		$("#side2").toggle();
+        	});
 		});
 		</script>
 	</head>
 	<body>
 		<div id="front">
-			<div id="logo"></div>
-			<div id="mapimage"></div>
+			<div id="side1">
+				<div id="logo"></div>
+				<div id="subtitle"></div>
+				
+				<div id="abouttext"><h2>June 1-2, 2013</h2>The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live. </div>
+			</div>
+			<div id="side2">
+				<div id="mapimage"></div>
+			</div>
 		</div>
 		
 	</body>

@@ -7,8 +7,19 @@
 	height: 600px;
 	z-index: 0;
 	margin: 0px;
+
 	top: 0;
 	left: 0;
+}
+#side1{
+	width: 100%;
+	height: 100%;
+
+}
+#side2{
+	width: 100%;
+	height: 100%;
+	
 }
 #mapimage{
 	background-image:url('../images/techbrewmap.png');
@@ -24,4 +35,26 @@
 	width: 100%;
 	height: 100%;
 	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#subtitle{
+	background-image: url('../images/annarbor.png');
+	background-repeat: no-repeat;
+	width: 90%;
+	height: 90%;
+	z-index: 11;
+	position: absolute;
+	top:60px;
+	left:0px;
+	margin: 5px;
+}
+#abouttext{
+	margin: 5px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:70px;
+	left:0px;
 }
