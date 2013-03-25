@@ -25,7 +25,7 @@
 	</head>
 	<body>
 	<div id="centercontent">
-		<img src="assets/images/logo_small.png" alt="national day of social hacking" height="60px" width="260px">
+		<a href="http://a2hackforchange.org" target="_self"><img src="assets/images/logo_small.png" alt="national day of social hacking" height="60px" width="260px"></a>
 		<h2>Site Plugin Creator</h2>
 		<div id="acontrolls">
 		
@@ -41,7 +41,7 @@
 		<div id="outsideiframe">
 			<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no"  frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 400px; background-color: #FFF; "></iframe>
 		</div>
-		
+		<a href="http://a2hackforchange.org" target="_self">Back</a>
 	</div>
 	</body>
 </html>
