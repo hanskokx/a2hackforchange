@@ -200,7 +200,7 @@
 	<div class="divider"></div>
 	<a name="get_involved"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1 id="who">Who</h1>
+	<h1 id="who">Get involved</h1>
 		<span class="text">
 			We need volunteers from all backgrounds to help make this event a success.  Whether you would like to volunteer your skills, offer sponsorship, or help organize the event, we need you!
 		</span>
@@ -211,6 +211,18 @@
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="faq">FAQ</h1>
 		<span class="text">
+			<h2>What is A2 Hack for Change and the National Day of Civic Hacking?</h2>
+				National Day of Civic Hacking, and subsequently A2 Hack for Change, is a national initiative to promote transparency, participation and collaboration between governments and citizens.
+			<h2>Who can participate in A2 Hack for Change?</h2>
+				Anyone can participate in any National Day of Civic Hacking event, throughout the country.  To have a successful event, we are going to need people from all backgrounds, with a broad range of skills.  We'll need engineers, technologists, scientists, designers, artists, educators, students, entrepreneurs -- anyone who has a passion for changing their community and is willing to contribute.
+			<h2>Can my company or organization get involved? How?</h2>
+				Absolutely! We're looking for help in the following areas:
+				<ol>
+					<li>Contribute data, code, or a challenge to support the event.</li>
+					<li>Support the planning of A2 Hack for Change by contributing resources or funding.</li>
+					<li>Promote A2 Hack for Change and encourage subject matter experts, employees, and citizens to participate.</li>
+					<li>Attend A2 Hack for Change on June 1-2, 2013!</li>
+				</ol>
 			<h2>How can I contact you for more information?</h2>
 				Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
 			<h2 id="location">Where is the event going to be held?</h2>
