@@ -33,13 +33,13 @@
 		    	$("#header").removeClass("navup");
 		    }
 
-		    var owhat = $("#what").offset().top;
+		    var oabout = $("#about").offset().top;
 		    var oevent = $("#event").offset().top;
 		    var owho = $("#who").offset().top;
 		    var ofaq = $("#faq").offset().top;
 		    // The following will highlight the buttons on scroll. if the height of the text changes,
 		    // all of the following numbers may be adjusted to match to new the new pixel heights.
-		    if (top > owhat && top < oevent)
+		    if (top > oabout && top < oevent)
 		    {
 		    	$("#about_btn").addClass("highlight");
 		    }
@@ -133,7 +133,7 @@
 <div id="header" class="shadow">
 	<div class="nav">
 		<div id="left-grad"></div>
-		<a href="#what"><span id="about_btn" class="nav_button">About</span></a>
+		<a href="#about"><span id="about_btn" class="nav_button">About</span></a>
 		<a href="#event"><span id="event_btn" class="nav_button">Event</span></a>
 		<span class="nav_div">&nbsp;</span>
 		<a href="#get_involved"><span id="get_involved_btn" class="nav_button">Help Out</span></a>
@@ -143,9 +143,9 @@
 </div>
 
 <div id="content">
-	<a name="what"></a>
-	<p style="line-height: 50px">&nbsp;</p>
-	<h1 id="what">What's happening?</h1>
+	<a name="about"></a>
+	<p style="line-height: 150px">&nbsp;</p>
+	<h1 id="about">What's happening?</h1>
 		<span class="text">
 			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
 			<br /><br />
