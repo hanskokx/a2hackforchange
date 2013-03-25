@@ -70,7 +70,34 @@
 		    	$("#faq_btn").removeClass("highlight");
 		    }
 		});
+		$(document).ready(function(){
+			$("#about_btn").mouseover(function(){
+				$("#about1").addClass("highlight");
+			});
+			$("#about_btn").mouseleave(function(){
+				$("#about1").removeClass("highlight");
+			});
 
+			$("#event_btn").mouseover(function(){
+				$("#event1").addClass("highlight");
+			});
+			$("#event_btn").mouseleave(function(){
+				$("#event1").removeClass("highlight");
+			});
+
+			$("#get_involved_btn").mouseover(function(){
+				$("#who1").addClass("highlight");
+			});
+			$("#get_involved_btn").mouseleave(function(){
+				$("#who1").removeClass("highlight");
+			});
+
+			$("#faq_btn").mouseover(function(){
+				$("#faq1").addClass("highlight");
+			});
+			$("#faq_btn").mouseleave(function(){
+				$("#faq1").removeClass("highlight");
+			});
 		});
 		</script>
 
