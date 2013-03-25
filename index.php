@@ -102,6 +102,39 @@
 		});
 		</script>
 
+		<!-- Google Map -->
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+
+		    <script type="text/javascript">
+				$(document).ready(function() {
+				//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
+		        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
+		        var mapOptions = {
+		          zoom: 6,
+		          center: myLatlng,
+		          mapTypeId: google.maps.MapTypeId.ROADMAP
+		        }
+
+		        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
+		        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
+
+		        var infowindow = new google.maps.InfoWindow({
+		            content: contentString
+		        });
+
+		        var marker = new google.maps.Marker({
+		            position: myLatlng,
+		            map: map,
+		            title: 'Tech Brewery, 1327 Jones Drive'
+		        });
+		        infowindow.open(map,marker);
+		        google.maps.event.addListener(marker, 'click', function() {
+		          infowindow.open(map,marker);
+		        });
+		        });
+		    </script>
+		    
 		<!-- Start of Woopra Code -->
 			<script type="text/javascript">
 			function woopraReady(tracker) {
@@ -179,49 +212,15 @@
 	<h1 id="faq">FAQ</h1>
 		<span class="text">
 			<h2>How can I contact you for more information?</h2>
-			Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
+				Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
+			<h2 id="location">Where is the event going to be held?</h2>
+				<span class="text">
+					A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
+					<center><div id="map-canvas"/></div><center>
+				</span>
 		</span>
 
 <p style="line-height: 35px">&nbsp;</p>
-
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
-
-    <script type="text/javascript">
-		$(document).ready(function() {
-		//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
-        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
-        var mapOptions = {
-          zoom: 6,
-          center: myLatlng,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-
-        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
-        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
-
-        var infowindow = new google.maps.InfoWindow({
-            content: contentString
-        });
-
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title: 'Tech Brewery, 1327 Jones Drive'
-        });
-        infowindow.open(map,marker);
-        google.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map,marker);
-        });
-        });
-    </script>
-
-<h2 id="location">Where is the event going to be held?</h2>
-<span class="text">
-	A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
-	<center><div id="map-canvas"/></div><center>
-</span>
-
 
 </div><!-- end content -->
 
