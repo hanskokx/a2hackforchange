@@ -37,8 +37,7 @@
 		    var oevent = $("#event").offset().top;
 		    var owho = $("#who").offset().top;
 		    var ofaq = $("#faq").offset().top;
-		    // The following will highlight the buttons on scroll. if the height of the text changes,
-		    // all of the following numbers may be adjusted to match to new the new pixel heights.
+		    // The following will highlight the buttons on scroll.
 		    if (top > oabout && top < oevent)
 		    {
 		    	$("#about_btn").addClass("highlight");
@@ -71,34 +70,7 @@
 		    	$("#faq_btn").removeClass("highlight");
 		    }
 		});
-		$(document).ready(function(){
-			$("#about_btn").mouseover(function(){
-				$("#about").addClass("highlight");
-			});
-			$("#about_btn").mouseleave(function(){
-				$("#about").removeClass("highlight");
-			});
 
-			$("#event_btn").mouseover(function(){
-				$("#event").addClass("highlight");
-			});
-			$("#event_btn").mouseleave(function(){
-				$("#event").removeClass("highlight");
-			});
-
-			$("#get_involved_btn").mouseover(function(){
-				$("#who").addClass("highlight");
-			});
-			$("#get_involved_btn").mouseleave(function(){
-				$("#who").removeClass("highlight");
-			});
-
-			$("#faq_btn").mouseover(function(){
-				$("#faq").addClass("highlight");
-			});
-			$("#faq_btn").mouseleave(function(){
-				$("#faq").removeClass("highlight");
-			});
 		});
 		</script>
 
