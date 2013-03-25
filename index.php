@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 	<head>
 		<title>A2 Hack for Change</title>
@@ -8,19 +6,20 @@
 			<!--[if lt IE 9]>
 				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
-
+        
+        <!-- Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="./assets/css/styles.css" media="all" type="text/css" />
-
-		<!-- Fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300italic,300' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-
+        
 		<!-- jQuery -->
 		<link href="assets/js/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<script src="assets/js/jquery/js/jquery-1.9.1.js"></script>
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
+		<script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 		<script type="text/javascript">
 		$(window).scroll(function () {
 		
@@ -77,31 +76,43 @@
 
 		    <script type="text/javascript">
 				$(document).ready(function() {
-				//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
-		        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
-		        var mapOptions = {
-		          zoom: 6,
-		          center: myLatlng,
-		          mapTypeId: google.maps.MapTypeId.ROADMAP
-		        }
-
-		        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-		        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
-		        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
-
-		        var infowindow = new google.maps.InfoWindow({
-		            content: contentString
-		        });
-
-		        var marker = new google.maps.Marker({
-		            position: myLatlng,
-		            map: map,
-		            title: 'Tech Brewery, 1327 Jones Drive'
-		        });
-		        infowindow.open(map,marker);
-		        google.maps.event.addListener(marker, 'click', function() {
-		          infowindow.open(map,marker);
-		        });
+				    
+				    var $scrollTarget = $(window);
+				    
+                    $('.nav-item').on('click', function(e) {
+                        e.preventDefault();
+                        $('.nav-item').removeClass('highlight'); // Remove the 'highlight' class from link if they exists
+                        $(this).addClass('highlight'); // Add the 'highlight' tag to the clicked nav item
+                        var targetID = $(this).attr('href');
+                        var $targetPosition = $(targetID).position();
+                        $scrollTarget.stop().scrollTo(($targetPosition.top), 750);
+                    });
+                    
+    				//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
+    		        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
+    		        var mapOptions = {
+    		          zoom: 6,
+    		          center: myLatlng,
+    		          mapTypeId: google.maps.MapTypeId.ROADMAP
+    		        }
+    
+    		        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    		        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
+    		        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
+    
+    		        var infowindow = new google.maps.InfoWindow({
+    		            content: contentString
+    		        });
+    
+    		        var marker = new google.maps.Marker({
+    		            position: myLatlng,
+    		            map: map,
+    		            title: 'Tech Brewery, 1327 Jones Drive'
+    		        });
+    		        infowindow.open(map,marker);
+    		        google.maps.event.addListener(marker, 'click', function() {
+    		          infowindow.open(map,marker);
+    		        });
 		        });
 		    </script>
 
@@ -136,17 +147,25 @@
 <div id="header" class="shadow">
 	<div class="nav">
 		<div id="left-grad"></div>
-		<a href="#about"><span id="about_btn" class="nav_button">About</span></a>
-		<a href="#event"><span id="event_btn" class="nav_button">Event</span></a>
+		<!--
+		<a href="#about" class='nav-item'><span id="about_btn" class="nav_button">About</span></a>
+		<a href="#event" class='nav-item'><span id="event_btn" class="nav_button">Event</span></a>
 		<span class="nav_div">&nbsp;</span>
-		<a href="#get_involved"><span id="get_involved_btn" class="nav_button">Help Out</span></a>
-		<a href="#faq"><span id="faq_btn" class="nav_button">FAQ</span></a>
+		<a href="#get_involved" class='nav-item'><span id="get_involved_btn" class="nav_button">Help Out</span></a>
+		<a href="#faq" class='nav-item'><span id="faq_btn" class="nav_button">FAQ</span></a>
+		-->
+		
+		<a href="#about" class='nav-item nav_button'>About</a>
+        <a href="#event" class='nav-item nav_button'>Even</a>
+        <span class="nav_div">&nbsp;</span>
+        <a href="#help" class="nav-item nav_button">Help Out</a>
+        <a href="#faq" class='nav-item nav_button'>FAQ</a>
+		
 		<div id="right-grad"></div>
 	</div>
 </div>
 
 <div id="content">
-	<a name="about"></a>
 	<p style="line-height: 150px">&nbsp;</p>
 	<h1 id="about">What's happening?</h1>
 		<span class="text">
@@ -160,7 +179,6 @@
 		</span>
 
 	<div class="divider"></div>
-	<a name="event"></a>
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="event">The Event</h1>
 		<span class="text">
@@ -182,9 +200,8 @@
 		</span>
 
 	<div class="divider"></div>
-	<a name="get_involved"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1 id="who">Get involved</h1>
+	<h1 id="help">Get involved</h1>
 		<span class="text">
 			There are many ways you can get involved in A2 Hack for Change. Our success will lie in government agencies, companies, organizations, universities and citizens working together to make a difference.
 			<br /><br />
@@ -193,7 +210,6 @@
 
 
 	<div class="divider"></div>
-	<a name="faq"></a>
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="faq">FAQ</h1>
 		<span class="text">
