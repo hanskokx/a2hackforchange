@@ -16,6 +16,7 @@ body {
 	position: absolute;
 	right: 50px;
 	top: 100px;
+	z-index: 11;
 }
 
 a:link, a:visited, a:hover, a:active {
