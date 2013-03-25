@@ -216,8 +216,9 @@
         });
     </script>
 
-<h1 id="location">Location</h1>
+<h2 id="location">Where is the event going to be held?</h2>
 <span class="text">
+	A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
 	<center><div id="map-canvas"/></div><center>
 </span>
 
