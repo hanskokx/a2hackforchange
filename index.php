@@ -161,7 +161,7 @@
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="event">The Event</h1>
 		<span class="text">
-
+			A2 Hack for Change will occur simultaneously as dozens of other Hack for Change events on the National Day of Civic Hacking, June 1-2, 2013.
 		</span>
 
 	<div class="divider"></div>
