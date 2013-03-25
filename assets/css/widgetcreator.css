@@ -1,0 +1,40 @@
+#centercontent{
+	text-align: center;
+	position: relative;
+	width: 550px;
+	margin-left: auto;
+    margin-right: auto;
+}
+#acontrolls{
+	width:240px;
+	position: absolute;
+	top: 110px;
+	margin-top: 10px;
+	z-index: 0;
+}
+img{
+	margin-left: -8px;
+	float: left;
+}
+h2 {
+	position: absolute;
+	top:35px;
+	color: #00ff00 !important;
+	font-family: 'Keania One', cursive;
+	font-size: 1.7em;
+}
+#outsideiframe {
+	position: absolute;
+	top:50px;
+	left:260px;
+	float: right;
+}
+button{
+	float:right;
+	z-index: 33;
+}
+
+#color, #width, #height {
+	float: right;
+	z-index: 33;
+}
