@@ -169,17 +169,7 @@
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="who">Who</h1>
 		<span class="text">
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas posuere sodales. Vivamus porta risus vel felis tincidunt a aliquet ipsum rutrum. Suspendisse auctor purus mauris. Duis eu dui imperdiet metus accumsan lobortis vitae sit amet justo. Integer interdum varius eros, et malesuada urna interdum at. Nullam placerat, sapien id convallis dictum, neque sapien tempus augue, vitae imperdiet quam risus et ante. Vestibulum pulvinar viverra mi, ac viverra lacus commodo sed. Vivamus ac enim et dui ultrices sodales. Proin malesuada fringilla urna, at placerat arcu faucibus a. Sed et est ut est ultrices congue non consequat mauris. Vestibulum congue vulputate quam vitae vehicula. Fusce blandit mollis mollis. Suspendisse sed odio in nunc tincidunt commodo nec quis ligula. Sed elit quam, imperdiet ac suscipit quis, blandit quis lacus. Duis nec feugiat ligula.
-
-Suspendisse porttitor pellentesque tincidunt. Aenean blandit lacinia nulla, eu rutrum orci blandit quis. Sed nibh diam, auctor vel pulvinar a, cursus eget est. Pellentesque vestibulum elementum magna, eu euismod dui imperdiet vel. Aliquam posuere augue eu turpis imperdiet volutpat eleifend quam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium ante aliquet nisi ullamcorper id mollis turpis adipiscing. Nullam vestibulum dui nulla.
-
-Vivamus vulputate nibh sit amet ipsum egestas sodales. Donec id metus lectus, sit amet ornare ipsum. Sed dignissim massa sed magna blandit eget faucibus dui pellentesque. Phasellus et sapien ut purus auctor accumsan sed non felis. Cras non magna ante, consequat laoreet metus. Nullam magna augue, dignissim non adipiscing ac, condimentum ac est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-Etiam at justo id magna egestas semper. Duis eleifend elementum velit cursus porttitor. Sed ac risus in odio elementum placerat. Maecenas interdum massa eu urna placerat condimentum. Cras rutrum gravida pellentesque. Aliquam vitae mi arcu. Ut a lacus eros. Aenean arcu risus, suscipit et laoreet a, vehicula vitae est.
-
-Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turpis, adipiscing a vulputate viverra, tristique ut mi. Fusce fringilla neque nisl, at ultrices nunc. Proin tincidunt rhoncus pulvinar. In eu dictum est. Quisque nulla dolor, commodo nec facilisis vitae, elementum nec dolor. Maecenas malesuada iaculis velit, id dapibus dui dignissim ac. Mauris quis tempus ante. Maecenas ligula enim, aliquam ut feugiat ut, mollis ac elit. Nam quis neque eu purus elementum pharetra ac eget ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			We need volunteers from all backgrounds to help make this event a success.  Whether you would like to volunteer your skills, offer sponsorship, or help organize the event, we need you!
 		</span>
 
 
@@ -188,16 +178,8 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="faq">FAQ</h1>
 		<span class="text">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas posuere sodales. Vivamus porta risus vel felis tincidunt a aliquet ipsum rutrum. Suspendisse auctor purus mauris. Duis eu dui imperdiet metus accumsan lobortis vitae sit amet justo. Integer interdum varius eros, et malesuada urna interdum at. Nullam placerat, sapien id convallis dictum, neque sapien tempus augue, vitae imperdiet quam risus et ante. Vestibulum pulvinar viverra mi, ac viverra lacus commodo sed. Vivamus ac enim et dui ultrices sodales. Proin malesuada fringilla urna, at placerat arcu faucibus a. Sed et est ut est ultrices congue non consequat mauris. Vestibulum congue vulputate quam vitae vehicula. Fusce blandit mollis mollis. Suspendisse sed odio in nunc tincidunt commodo nec quis ligula. Sed elit quam, imperdiet ac suscipit quis, blandit quis lacus. Duis nec feugiat ligula.
-
-Suspendisse porttitor pellentesque tincidunt. Aenean blandit lacinia nulla, eu rutrum orci blandit quis. Sed nibh diam, auctor vel pulvinar a, cursus eget est. Pellentesque vestibulum elementum magna, eu euismod dui imperdiet vel. Aliquam posuere augue eu turpis imperdiet volutpat eleifend quam blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium ante aliquet nisi ullamcorper id mollis turpis adipiscing. Nullam vestibulum dui nulla.
-
-Vivamus vulputate nibh sit amet ipsum egestas sodales. Donec id metus lectus, sit amet ornare ipsum. Sed dignissim massa sed magna blandit eget faucibus dui pellentesque. Phasellus et sapien ut purus auctor accumsan sed non felis. Cras non magna ante, consequat laoreet metus. Nullam magna augue, dignissim non adipiscing ac, condimentum ac est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-Etiam at justo id magna egestas semper. Duis eleifend elementum velit cursus porttitor. Sed ac risus in odio elementum placerat. Maecenas interdum massa eu urna placerat condimentum. Cras rutrum gravida pellentesque. Aliquam vitae mi arcu. Ut a lacus eros. Aenean arcu risus, suscipit et laoreet a, vehicula vitae est.
-
-Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turpis, adipiscing a vulputate viverra, tristique ut mi. Fusce fringilla neque nisl, at ultrices nunc. Proin tincidunt rhoncus pulvinar. In eu dictum est. Quisque nulla dolor, commodo nec facilisis vitae, elementum nec dolor. Maecenas malesuada iaculis velit, id dapibus dui dignissim ac. Mauris quis tempus ante. Maecenas ligula enim, aliquam ut feugiat ut, mollis ac elit. Nam quis neque eu purus elementum pharetra ac eget ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+			<h2>How can I contact you for more information?</h2>
+			Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
 		</span>
 
 <p style="line-height: 35px">&nbsp;</p>

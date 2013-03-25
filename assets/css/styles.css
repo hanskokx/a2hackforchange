@@ -42,8 +42,14 @@ h1 {
 	color: #3B3B3B;
 }
 
+h2 {
+	color: #4299CE;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
 .text {
-	font-family: 'Lato', 'Helvetica Neue', 'Helvetica Neue Medium', 'HelveticaNeue LT 65 Medium';
 	width: 75%;
 	max-width: 800px;
 	min-width: 200px;
