@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 	<head>
 		<title>A2 Hack for Change</title>
@@ -21,6 +20,7 @@
 		<link href="assets/js/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<script src="assets/js/jquery/js/jquery-1.9.1.js"></script>
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
+		<script src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
 		<script type="text/javascript">
 		$(window).scroll(function () {
 		
@@ -69,6 +69,15 @@
 		    else{
 		    	$("#faq_btn").removeClass("highlight");
 		    }
+		});
+		
+		$(doucment).ready(function() {
+			$('.nav-item').on('click', function(e) {
+				var clickedTarget = $(this).attr('href');
+				$('.nav-item').removeClass('highlight'); // Remove the 'highligh' class from anchors if they exists
+				$(this).addClass('highlight'); // Add the 'highlight' tag to the clicked nav item
+				$('a[name="' + clickedTarget + '"]').scrollTo(clickedTarget, 500);
+			});
 		});
 		</script>
 
@@ -136,11 +145,11 @@
 <div id="header" class="shadow">
 	<div class="nav">
 		<div id="left-grad"></div>
-		<a href="#about"><span id="about_btn" class="nav_button">About</span></a>
-		<a href="#event"><span id="event_btn" class="nav_button">Event</span></a>
+		<a class="nav-item" href="#about"><span id="about_btn" class="nav_button">About</span></a>
+		<a class="nav-item" href="#event"><span id="event_btn" class="nav_button">Event</span></a>
 		<span class="nav_div">&nbsp;</span>
-		<a href="#get_involved"><span id="get_involved_btn" class="nav_button">Help Out</span></a>
-		<a href="#faq"><span id="faq_btn" class="nav_button">FAQ</span></a>
+		<a class="nav-item" href="#get_involved"><span id="get_involved_btn" class="nav_button">Help Out</span></a>
+		<a class="nav-item" href="#faq"><span id="faq_btn" class="nav_button">FAQ</span></a>
 		<div id="right-grad"></div>
 	</div>
 </div>
