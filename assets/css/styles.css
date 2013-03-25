@@ -14,7 +14,7 @@ body {
 #twitter {
 	display: block;
 	position: absolute;
-	right: 50px;
+	right: 150px;
 	top: 100px;
 	z-index: 11;
 }
