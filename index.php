@@ -140,7 +140,12 @@
 	</head>
 <body>
 
-<div id="topheader"><div id="headerimg"></div></div>
+<div id="topheader">
+	<div id="headerimg"></div>
+	<!-- Twitter Button -->
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.a2hackforchange.org" data-text="Help support the A2 Hack for Change and the National Day of Civic Hacking!" data-via="A2HackforChange" data-size="large" data-hashtags="A2hfc">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
 <div id="header" class="shadow">
 	<div class="nav">
 		<div id="left-grad"></div>
@@ -240,6 +245,7 @@
 </div><!-- end content -->
 
 <div id="footer">
+	<!-- Mailto -->
 	<a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change"><span id="contact"></span></a>
 </div>
 
