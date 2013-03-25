@@ -38,3 +38,7 @@ button{
 	float: right;
 	z-index: 33;
 }
+#printcode {
+	position: relative;
+	top: 15px;
+}
