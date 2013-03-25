@@ -33,38 +33,72 @@
 		    	$("#header").removeClass("navup");
 		    }
 
+		    var owhat = $("#what").offset().top;
+		    var oevent = $("#event").offset().top;
+		    var owho = $("#who").offset().top;
+		    var ofaq = $("#faq").offset().top;
 		    // The following will highlight the buttons on scroll. if the height of the text changes,
 		    // all of the following numbers may be adjusted to match to new the new pixel heights.
-		    if (top > 347 && top < 610)
+		    if (top > owhat && top < oevent)
 		    {
 		    	$("#about_btn").addClass("highlight");
 		    }
 		    else{
 		    	$("#about_btn").removeClass("highlight");
 		    }
-		    if (top > 610 && top < 1300)
+
+		    if (top > oevent && top < owho)
 		    {
 		    	$("#event_btn").addClass("highlight");
 		    }
 		    else{
 		    	$("#event_btn").removeClass("highlight");
 		    }
-		    if (top > 1300 && top < 2000)
+
+		    if (top > owho && top < ofaq)
 		    {
 		    	$("#get_involved_btn").addClass("highlight");
 		    }
 		    else{
 		    	$("#get_involved_btn").removeClass("highlight");
 		    }
-		    if (top > 2000)
+
+		    if (top > ofaq)
 		    {
 		    	$("#faq_btn").addClass("highlight");
 		    }
 		    else{
 		    	$("#faq_btn").removeClass("highlight");
 		    }
+		});
+		$(document).ready(function(){
+			$("#about_btn").mouseover(function(){
+				$("#what").addClass("highlight");
+			});
+			$("#about_btn").mouseleave(function(){
+				$("#what").removeClass("highlight");
+			});
 
-			
+			$("#event_btn").mouseover(function(){
+				$("#event").addClass("highlight");
+			});
+			$("#event_btn").mouseleave(function(){
+				$("#event").removeClass("highlight");
+			});
+
+			$("#get_involved_btn").mouseover(function(){
+				$("#who").addClass("highlight");
+			});
+			$("#get_involved_btn").mouseleave(function(){
+				$("#who").removeClass("highlight");
+			});
+
+			$("#faq_btn").mouseover(function(){
+				$("#faq").addClass("highlight");
+			});
+			$("#faq_btn").mouseleave(function(){
+				$("#faq").removeClass("highlight");
+			});
 		});
 		</script>
 
@@ -111,7 +145,7 @@
 <div id="content">
 	<a name="what"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1>What</h1>
+	<h1 id="what">What</h1>
 		<span class="text">
 			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
 			<br /><br />
@@ -125,7 +159,7 @@
 	<div class="divider"></div>
 	<a name="event"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1>The Event</h1>
+	<h1 id="event">The Event</h1>
 		<span class="text">
 
 		</span>
@@ -133,7 +167,7 @@
 	<div class="divider"></div>
 	<a name="get_involved"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1>Who</h1>
+	<h1 id="who">Who</h1>
 		<span class="text">
 
 
@@ -152,7 +186,7 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
 	<div class="divider"></div>
 	<a name="faq"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1>FAQ</h1>
+	<h1 id="faq">FAQ</h1>
 		<span class="text">
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas posuere sodales. Vivamus porta risus vel felis tincidunt a aliquet ipsum rutrum. Suspendisse auctor purus mauris. Duis eu dui imperdiet metus accumsan lobortis vitae sit amet justo. Integer interdum varius eros, et malesuada urna interdum at. Nullam placerat, sapien id convallis dictum, neque sapien tempus augue, vitae imperdiet quam risus et ante. Vestibulum pulvinar viverra mi, ac viverra lacus commodo sed. Vivamus ac enim et dui ultrices sodales. Proin malesuada fringilla urna, at placerat arcu faucibus a. Sed et est ut est ultrices congue non consequat mauris. Vestibulum congue vulputate quam vitae vehicula. Fusce blandit mollis mollis. Suspendisse sed odio in nunc tincidunt commodo nec quis ligula. Sed elit quam, imperdiet ac suscipit quis, blandit quis lacus. Duis nec feugiat ligula.
@@ -200,7 +234,7 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
         });
     </script>
 
-<h1>Location</h1>
+<h1 id="location">Location</h1>
 <span class="text">
 	<center><div id="map-canvas"/></div><center>
 </span>
