@@ -134,7 +134,7 @@
 		        });
 		        });
 		    </script>
-		    
+
 		<!-- Start of Woopra Code -->
 			<script type="text/javascript">
 			function woopraReady(tracker) {
@@ -214,10 +214,8 @@
 			<h2>How can I contact you for more information?</h2>
 				Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
 			<h2 id="location">Where is the event going to be held?</h2>
-				<span class="text">
-					A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
-					<center><div id="map-canvas"/></div><center>
-				</span>
+				A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
+				<center><div id="map-canvas"/></div><center>
 		</span>
 
 <p style="line-height: 35px">&nbsp;</p>
