@@ -2,12 +2,13 @@
 	margin: 0px !important;
 }
 #front{
-	background-color: #000;
 	min-width: 100px;
 	max-width: 260px;
 	height: 600px;
 	z-index: 0;
 	margin: 0px;
+	top: 0;
+	left: 0;
 }
 #mapimage{
 	background-image:url('../images/techbrewmap.png');
