@@ -145,7 +145,7 @@
 <div id="content">
 	<a name="what"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1 id="what">What</h1>
+	<h1 id="what">What's happening?</h1>
 		<span class="text">
 			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
 			<br /><br />
@@ -162,6 +162,11 @@
 	<h1 id="event">The Event</h1>
 		<span class="text">
 			A2 Hack for Change will occur simultaneously as dozens of other Hack for Change events on the National Day of Civic Hacking, June 1-2, 2013.
+
+			<h1 id="location">Location</h1>
+			<span class="text">
+				<center><div id="map-canvas"/></div><center>
+			</span>
 		</span>
 
 	<div class="divider"></div>
@@ -233,12 +238,6 @@ Nunc sodales tempus tellus ac viverra. Vestibulum vel mauris elit. Cras est turp
         });
         });
     </script>
-
-<h1 id="location">Location</h1>
-<span class="text">
-	<center><div id="map-canvas"/></div><center>
-</span>
-
 
 </div><!-- end content -->
 
