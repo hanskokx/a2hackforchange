@@ -195,6 +195,20 @@
 	<h1 id="event">The Event</h1>
 		<span class="text">
 			A2 Hack for Change will occur simultaneously as dozens of other Hack for Change events on the National Day of Civic Hacking, June 1-2, 2013.
+			<br /><br />
+			The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live. 
+			<br /><br />
+			<h2>Benefits</h2>
+			You should participate in National Day of Civic Hacking because the toughest challenges are not one community’s alone to solve. This is a unique opportunity to get involved, connect with others like yourself, and develop technology that will make the world a better place.
+			<ul>
+				<li>Demonstrate a commitment to the principles of transparency, participation, and collaboration.</li>
+				<li>Exercise a government’s interest in using open data and technology, in partnership with others, to address your local community’s felt needs.</li>
+				<li>Liberate open data that can inform better problem solving in every community.</li>
+				<li>Continue to collectively map a national innovation ecosystem and create new access points to that system.</li>
+				<li>Engage citizens in cities with little technology infrastructure to contribute to changing their community through open source, open data, entrepreneurship and code development.</li>
+				<li>Promote Science, Technology, Engineering and Mathematics (STEM) education by encouraging students to utilize open technology for solutions to real challenges.</li>
+				<li>Encourage large scale partnership and mutual understanding.</li>
+			</ul>
 		</span>
 
 	<div class="divider"></div>
@@ -202,6 +216,8 @@
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="who">Get involved</h1>
 		<span class="text">
+			There are many ways you can get involved in A2 Hack for Change. Our success will lie in government agencies, companies, organizations, universities and citizens working together to make a difference.
+			<br /><br />
 			We need volunteers from all backgrounds to help make this event a success.  Whether you would like to volunteer your skills, offer sponsorship, or help organize the event, we need you!
 		</span>
 
@@ -223,8 +239,21 @@
 					<li>Promote A2 Hack for Change and encourage subject matter experts, employees, and citizens to participate.</li>
 					<li>Attend A2 Hack for Change on June 1-2, 2013!</li>
 				</ol>
+			<h2>Can city, state and federal government help?</h2>
+				We are looking for city, state and federal government agencies who are interested in supporting events in their communities around the nation. Support by government and/or city leadership may include:
+				<ol>
+					<li>Contribute data, code, or a challenge to support the event.</li>
+					<li>Promote A2 Hack for Change and encourage subject matter experts, employees, and citizens to participate.</li>
+					<li>Attend A2 Hack for Change on June 1-2, 2013!</li>
+				</ol>
+			<h2>When is A2 Hack for Change taking place?</h2>
+				A2 Hack for Change will be taking place simultaneously as dozens of National Day of Civic Hacking events around the country on June 1-2, 2013.
+			<h2>I hear about "hackers" in the news.  Isn't hacking bad?</h2>
+				To us, a hacker is someone who uses a minimum of resources and a maximum of brainpower and ingenuity to create, enhance or fix something. Although in some circumstances it is used in a negative sense, the term is not inherently negative, nor does it even have to be related to technology.
 			<h2>How can I contact you for more information?</h2>
 				Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
+			<h2>Who is leading A2 Hack for Change?</h2>
+				Lifelong tech enthusiast and Michigan resident, Hans Kokx.
 			<h2 id="location">Where is the event going to be held?</h2>
 				A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
 				<center><div id="map-canvas"/></div><center>
