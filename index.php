@@ -73,10 +73,10 @@
 		});
 		$(document).ready(function(){
 			$("#about_btn").mouseover(function(){
-				$("#what").addClass("highlight");
+				$("#about").addClass("highlight");
 			});
 			$("#about_btn").mouseleave(function(){
-				$("#what").removeClass("highlight");
+				$("#about").removeClass("highlight");
 			});
 
 			$("#event_btn").mouseover(function(){
