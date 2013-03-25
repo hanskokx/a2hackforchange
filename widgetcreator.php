@@ -18,7 +18,7 @@
 			var heightValue = document.getElementById('height').value;
 			
 			document.getElementById('texta').value = '<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: '+widthValue+'px; height: '+heightValue+'px; background-color: '+colorValue+'; "></iframe>';
-			document.getElementById("outsideiframe").innerHTML = '<iframe src="http://a2hackforchange.org/webwidget.php" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: '+widthValue+'px; height: '+heightValue+'px; background-color: '+colorValue+'; "></iframe>';
+			document.getElementById("outsideiframe").innerHTML = '<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: '+widthValue+'px; height: '+heightValue+'px; background-color: '+colorValue+'; "></iframe>';
 		});
 		});
 		</script>
@@ -29,7 +29,7 @@
 		<h2>Site Plugin Creator</h2>
 		<div id="acontrolls">
 		
-			Color Hex<input type="text" id="color" name="color" value="#FFF" size="7" maxlength="7" onfocus="(this.value = '#')">
+			Background Color:<input type="text" id="color" name="color" value="#FFF" size="7" maxlength="7" onfocus="(this.value = '#')">
 			<br/><br/>Width:<input type="text" id="width" name="width" value="275" size="7" maxlength="7" onfocus="(this.value = '')">
 			<br/><br/>Height:<input type="text" id="height" name="height" value="400" size="7" maxlength="7" onfocus="(this.value = '')">
 			<br/><br/><button id="asubmit">Calculate</button>
