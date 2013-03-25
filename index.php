@@ -20,11 +20,10 @@
 		<link href="assets/js/jquery/css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
 		<script src="assets/js/jquery/js/jquery-1.9.1.js"></script>
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
-		<script src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
+		<script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 		<script type="text/javascript">
 		$(window).scroll(function () {
-		
-			var top = $(document).scrollTop();
+            var top = $(document).scrollTop();
 			//document.getElementById("topheader").innerHTML = top;
 			if (top > 347) {
 		        $("#header").addClass("navup");
@@ -32,52 +31,43 @@
 		    else {
 		    	$("#header").removeClass("navup");
 		    }
-
-		    var oabout = $("#about").offset().top;
-		    var oevent = $("#event").offset().top;
-		    var owho = $("#who").offset().top;
-		    var ofaq = $("#faq").offset().top;
+            var offset = $('#header').height() + 75;
+		    var oabout = $("#about").offset().top - offset;
+		    var oevent = $("#event").offset().top - offset;
+		    var owho = $("#help").offset().top - offset;
+		    var ofaq = $("#faq").offset().top - offset;
 		    // The following will highlight the buttons on scroll.
 		    if (top > oabout && top < oevent)
 		    {
-		    	$("#about_btn").addClass("highlight");
+		    	$("a[href='#about']").addClass("highlight");
 		    }
 		    else{
-		    	$("#about_btn").removeClass("highlight");
+		    	$("a[href='#about']").removeClass("highlight");
 		    }
 
 		    if (top > oevent && top < owho)
 		    {
-		    	$("#event_btn").addClass("highlight");
+		    	$("a[href='#event']").addClass("highlight");
 		    }
 		    else{
-		    	$("#event_btn").removeClass("highlight");
+		    	$("a[href='#event']").removeClass("highlight");
 		    }
 
 		    if (top > owho && top < ofaq)
 		    {
-		    	$("#get_involved_btn").addClass("highlight");
+		    	$("a[href='#help']").addClass("highlight");
 		    }
 		    else{
-		    	$("#get_involved_btn").removeClass("highlight");
+		    	$("a[href='#help']").removeClass("highlight");
 		    }
 
 		    if (top > ofaq)
 		    {
-		    	$("#faq_btn").addClass("highlight");
+		    	$("a[href='#faq']").addClass("highlight");
 		    }
 		    else{
-		    	$("#faq_btn").removeClass("highlight");
+		    	$("a[href='#faq']").removeClass("highlight");
 		    }
-		});
-		
-		$(doucment).ready(function() {
-			$('.nav-item').on('click', function(e) {
-				var clickedTarget = $(this).attr('href');
-				$('.nav-item').removeClass('highlight'); // Remove the 'highligh' class from anchors if they exists
-				$(this).addClass('highlight'); // Add the 'highlight' tag to the clicked nav item
-				$('a[name="' + clickedTarget + '"]').scrollTo(clickedTarget, 500);
-			});
 		});
 		</script>
 
@@ -86,31 +76,40 @@
 
 		    <script type="text/javascript">
 				$(document).ready(function() {
-				//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
-		        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
-		        var mapOptions = {
-		          zoom: 6,
-		          center: myLatlng,
-		          mapTypeId: google.maps.MapTypeId.ROADMAP
-		        }
-
-		        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-		        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
-		        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
-
-		        var infowindow = new google.maps.InfoWindow({
-		            content: contentString
-		        });
-
-		        var marker = new google.maps.Marker({
-		            position: myLatlng,
-		            map: map,
-		            title: 'Tech Brewery, 1327 Jones Drive'
-		        });
-		        infowindow.open(map,marker);
-		        google.maps.event.addListener(marker, 'click', function() {
-		          infowindow.open(map,marker);
-		        });
+				    $('.nav-item').on('click', function(e) {
+				        e.preventDefault();
+				        var $scrollTarget = $(window);
+                        var clickedTarget = $(this).attr('href');
+                        $('.nav-item').removeClass('highlight'); // Remove the 'highlight' class from any nav if it exists
+                        $(this).addClass('highlight'); // Add the 'highlight' tag to the clicked nav item
+                        $($scrollTarget).scrollTo(clickedTarget, 500, {offset: {top: -75}});
+                    });
+				    
+    				//if you change the address of the venue, update the latitude and longitude to match, use http://www.latlong.net/convert-address-to-lat-long.html
+    		        var myLatlng = new google.maps.LatLng(42.292867,-83.734420);
+    		        var mapOptions = {
+    		          zoom: 6,
+    		          center: myLatlng,
+    		          mapTypeId: google.maps.MapTypeId.ROADMAP
+    		        }
+    
+    		        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    		        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
+    		        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
+    
+    		        var infowindow = new google.maps.InfoWindow({
+    		            content: contentString
+    		        });
+    
+    		        var marker = new google.maps.Marker({
+    		            position: myLatlng,
+    		            map: map,
+    		            title: 'Tech Brewery, 1327 Jones Drive'
+    		        });
+    		        infowindow.open(map,marker);
+    		        google.maps.event.addListener(marker, 'click', function() {
+    		          infowindow.open(map,marker);
+    		        });
 		        });
 		    </script>
 
@@ -145,17 +144,16 @@
 <div id="header" class="shadow">
 	<div class="nav">
 		<div id="left-grad"></div>
-		<a class="nav-item" href="#about"><span id="about_btn" class="nav_button">About</span></a>
-		<a class="nav-item" href="#event"><span id="event_btn" class="nav_button">Event</span></a>
+		<a class="nav-item nav_button" href="#about">About</a>
+		<a class="nav-item nav_button" href="#event">Event</a>
 		<span class="nav_div">&nbsp;</span>
-		<a class="nav-item" href="#get_involved"><span id="get_involved_btn" class="nav_button">Help Out</span></a>
-		<a class="nav-item" href="#faq"><span id="faq_btn" class="nav_button">FAQ</span></a>
+		<a class="nav-item nav_button" href="#help">Help Out</a>
+		<a class="nav-item nav_button" href="#faq">FAQ</a>
 		<div id="right-grad"></div>
 	</div>
 </div>
 
 <div id="content">
-	<a name="about"></a>
 	<p style="line-height: 150px">&nbsp;</p>
 	<h1 id="about">What's happening?</h1>
 		<span class="text">
@@ -169,7 +167,6 @@
 		</span>
 
 	<div class="divider"></div>
-	<a name="event"></a>
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="event">The Event</h1>
 		<span class="text">
@@ -191,18 +188,18 @@
 		</span>
 
 	<div class="divider"></div>
-	<a name="get_involved"></a>
 	<p style="line-height: 50px">&nbsp;</p>
-	<h1 id="who">Get involved</h1>
+	<h1 id="help">Get involved</h1>
 		<span class="text">
 			There are many ways you can get involved in A2 Hack for Change. Our success will lie in government agencies, companies, organizations, universities and citizens working together to make a difference.
 			<br /><br />
 			We need volunteers from all backgrounds to help make this event a success.  Whether you would like to volunteer your skills, offer sponsorship, or help organize the event, we need you!
+			<h2>Why not sign up?</h2>
+			<iframe src="https://docs.google.com/forms/d/1R-zh6eL77QQJSCHHGWklFFkFq0b8Xs85zEejOUBWtz8/viewform?embedded=true" width="800" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 		</span>
 
 
 	<div class="divider"></div>
-	<a name="faq"></a>
 	<p style="line-height: 50px">&nbsp;</p>
 	<h1 id="faq">FAQ</h1>
 		<span class="text">
