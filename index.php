@@ -143,8 +143,10 @@
 <div id="topheader">
 	<div id="headerimg"></div>
 	<!-- Twitter Button -->
-	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.a2hackforchange.org" data-text="Help support the A2 Hack for Change and the National Day of Civic Hacking!" data-via="A2HackforChange" data-size="large" data-hashtags="A2hfc">Tweet</a>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<div id="twitter">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.a2hackforchange.org" data-text="Help support the A2 Hack for Change and the National Day of Civic Hacking!" data-via="A2HackforChange" data-size="large" data-hashtags="A2hfc">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
 </div>
 <div id="header" class="shadow">
 	<div class="nav">

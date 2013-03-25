@@ -11,7 +11,7 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-.IFRAME.twitter-share-button.twitter-count-horizontal {
+#twitter {
 	display: block;
 	position: absolute;
 	right: 50;
