@@ -198,6 +198,8 @@
 			We need volunteers from all backgrounds to help make this event a success.  Whether you would like to volunteer your skills, offer sponsorship, or help organize the event, we need you!
 			<h2>Why not sign up?</h2>
 			<iframe src="https://docs.google.com/forms/d/1R-zh6eL77QQJSCHHGWklFFkFq0b8Xs85zEejOUBWtz8/viewform?embedded=true" width="800" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			<h2>Join the conversation</h2>
+			The forums are located at <a href="http://forums.a2hackforchange.org">a2hackforchange.org</a>
 		</span>
 
 
