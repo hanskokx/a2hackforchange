@@ -40,7 +40,7 @@
 			</div>
 		</div>
 		<div id="outsideiframe">
-			<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no"  frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 400px; background-color: #FFF; "></iframe>
+			<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no"  frameborder="0" border="0" cellspacing="0" style="border-style: none; padding-right: 10px; width: 275px; height: 400px; background-color: #FFF; "></iframe>
 		</div>
 		
 	</div>
