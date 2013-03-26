@@ -13,7 +13,7 @@
 		<script type="text/javascript">
 		$(document).ready(function(){
 			$('#side2').hide();
-			$('#front').click(function() {
+			$('body').click(function() {
         		$("#side1").toggle();
         		$("#side2").toggle();
         	});
@@ -21,18 +21,21 @@
 		</script>
 	</head>
 	<body>
-		<div id="front">
+		
 			<div id="side1">
-				<div id="logo"></div>
-				
+				<div id="centercontent">
+				<img src="assets/images/logo.png" alt="national day of social hacking" height="60px" width="260px">
 				<a href="http://a2hackforchange.org" target="_blank" class="classname">Ann Arbor</a>
-				<div id="abouttext"><h2>June 1-2, 2013</h2>The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live. </div>
+				<h2>June 1-2, 2013</h2>
+				</div>
+				<div id="abouttext">The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live. Head to the <a href="http://hackforchange.org/" target="_blank">hackforchange.org</a> for more info.</div>
+				
 			</div>
 			<div id="side2">
 				<div id="logo"></div>
 				<div id="mapimage"></div>
 			</div>
-		</div>
+		<div id="front"></div>
 		
 	</body>
 </html>

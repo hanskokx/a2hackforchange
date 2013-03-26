@@ -25,9 +25,11 @@ h2 {
 }
 #outsideiframe {
 	position: absolute;
-	top:50px;
+	top:0px;
 	left:260px;
 	float: right;
+	border:1px solid #000;
+	z-index: 11;
 }
 button{
 	float:right;
@@ -41,4 +43,7 @@ button{
 #printcode {
 	position: relative;
 	top: 15px;
+}
+#texa {
+	z-index: 12;
 }

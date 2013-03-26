@@ -25,7 +25,8 @@
 	</head>
 	<body>
 	<div id="centercontent">
-		<a href="http://a2hackforchange.org" target="_self"><img src="assets/images/logo_small.png" alt="national day of social hacking" height="60px" width="260px"></a>
+
+		<a href="http://a2hackforchange.org" target="_self"><img src="assets/images/logo.png" alt="national day of social hacking" height="60px" width="260px"></a>
 		<h2>Site Plugin Creator</h2>
 		<div id="acontrolls">
 		
@@ -34,14 +35,14 @@
 			<br/><br/>Height:<input type="text" id="height" name="height" value="400" size="7" maxlength="7" onfocus="(this.value = '')">
 			<br/><br/><button id="asubmit">Calculate</button>
 			<div id="printcode">
-				<textarea id="texta" rows="11" cols="26"></textarea>
+				<br>iframe Code:<br>
+				<textarea id="texta" rows="11" cols="27" onclick="this.select()"></textarea>
 			</div>
 		</div>
-	
 		<div id="outsideiframe">
 			<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no"  frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 400px; background-color: #FFF; "></iframe>
 		</div>
-		<a href="http://a2hackforchange.org" target="_self">Back</a>
+		
 	</div>
 	</body>
 </html>
