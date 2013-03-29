@@ -239,7 +239,7 @@
 		</span>
 
 		<div class="banner">
-			<span class="banner_text">Sponsors</span>
+			Sponsors
 		</div>
 
 <p style="line-height: 35px">&nbsp;</p>
