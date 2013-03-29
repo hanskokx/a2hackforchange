@@ -1,4 +1,8 @@
-
+<?
+class banner {
+	echo '<div class="banner"><span class="banner_text">$banner_text</span></div>';
+}
+?>
 <!DOCTYPE html>
 	<head>
 		<title>A2 Hack for Change</title>
@@ -238,6 +242,12 @@
 				A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
 				<center><div id="map-canvas"/></div><center>
 		</span>
+
+<?
+$sponsors = new banner();
+$sponsors->banner_text = 'Sponsors';
+echo $sponsors->banner_text;
+?>
 
 <p style="line-height: 35px">&nbsp;</p>
 
