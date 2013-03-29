@@ -1,7 +1,7 @@
 <?
 class banner {
-	echo '<div class="banner"><span class="banner_text">$banner_text</span></div>';
-}
+	echo '<div class="banner"><span class="banner_text">$banner_text</span></div>'
+};
 ?>
 <!DOCTYPE html>
 	<head>
