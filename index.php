@@ -1,8 +1,3 @@
-<?
-class banner {
-	print '<div class="banner"><span class="banner_text">$banner_text</span></div>'
-}
-?>
 <!DOCTYPE html>
 	<head>
 		<title>A2 Hack for Change</title>
@@ -243,11 +238,9 @@ class banner {
 				<center><div id="map-canvas"/></div><center>
 		</span>
 
-<?
-$sponsors = new banner();
-$sponsors->banner_text = 'Sponsors';
-echo $sponsors->banner_text;
-?>
+		<div class="banner">
+			<span class="banner_text">Sponsors</span>
+		</div>
 
 <p style="line-height: 35px">&nbsp;</p>
 
