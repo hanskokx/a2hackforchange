@@ -239,7 +239,7 @@
 		</span>
 
 		<div class="banner">Sponsors</div>
-			<div class="sponsor" id="zinio"></div>
+			<a href='http://www.zinio.com/'><span class="sponsor" id="zinio"></span></a>
 
 <p style="line-height: 35px">&nbsp;</p>
 
