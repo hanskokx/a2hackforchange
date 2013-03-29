@@ -238,9 +238,8 @@
 				<center><div id="map-canvas"/></div><center>
 		</span>
 
-		<div class="banner">
-			Sponsors
-		</div>
+		<div class="banner">Sponsors</div>
+			<div class="sponsor" id="zinio"></div>
 
 <p style="line-height: 35px">&nbsp;</p>
 

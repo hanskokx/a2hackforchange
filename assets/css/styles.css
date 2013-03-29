@@ -250,3 +250,16 @@ h2 {
 	color: white;
 	line-height: 43px;
 }
+
+.sponsor {
+	display: inline-block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#zinio {
+	background-image: url('../images/sponsors/Zinio.jpg');
+	width: 120px;
+	height: 60px;
+}
