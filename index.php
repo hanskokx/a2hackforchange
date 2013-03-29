@@ -162,7 +162,7 @@
 			<br /><br />
 			The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live.
 			<br /><br />
-			Ann Arbor is proud to participate in this national event by hosting our very own A2 Hack for Change.  Occuring simultaneously with dozens of events throughout the country, we aim to show the rest of the world what Ann Arbor is made of.
+			Ann Arbor is proud to participate in this national event by hosting our very own A2 Hack for Change.  Occurring simultaneously with dozens of events throughout the country, we aim to show the rest of the world what Ann Arbor is made of.
 			<br /><br />
 			By leveraging public datasets, the goal of the A2 Hack for Change is to improve the lives of all the peoples in and around Ann Arbor.  Creativity and ingenuity are going to play key roles in determining how the community can best be served by what we aim to create.
 		</span>
