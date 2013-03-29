@@ -235,3 +235,13 @@ h2 {
 	display: inline-block;
 }
 
+.banner {
+	background-image: url('../images/banner.png');
+	background-repeat: no-repeat;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 436px;
+	height: 64px;
+}
