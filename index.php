@@ -238,6 +238,7 @@
 				<center><div id="map-canvas"/></div><center>
 		</span>
 
+		<div class="divider"></div>
 		<div class="banner">Sponsors</div>
 			<a href='http://zinio.com/?WT.mc_id=ACQ%C2%A0_SOC_BLOG'><span class="sponsor" id="zinio"></span></a>
 
