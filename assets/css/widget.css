@@ -3,7 +3,7 @@ body{
 	width: 100%;
 	height: 100%;
 }
-#side1{
+#flipbox{
 	width: 100%;
 	height: 100%;
 	z-index: 43;
@@ -16,7 +16,7 @@ body{
 #mapimage{
 	background-image:url('../images/techbrewmap.png');
 	background-repeat: no-repeat;
-	width: 250px;
+	width: 260px;
 	height: 100%;
 	position: absolute;
 	z-index: 11;
