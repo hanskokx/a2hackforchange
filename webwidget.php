@@ -12,7 +12,13 @@
 		<script src="assets/js/jquery/js/jquery-ui-1.10.2.custom.js"></script>
 		<script src="assets/js/jquery.flip.js"></script>
 		<script type="text/javascript">
+		var link = '<?php echo htmlentities($_GET['link']); ?>';
+		
+		
 		$(document).ready(function(){
+			if (link == "white") {
+			document.getElementById("abouttext").className = "aboutwhite";
+			}
 			$('#side2').hide();
 			i=0;
 			$('body').click(function() {
@@ -24,7 +30,7 @@
 			        }
 			        else {
 			        $("#flipbox").flip({
-						direction:'lr',
+						direction:'bt',
 						color:'white',
 						content:'<div id="side2"><div id="logo"></div><div id="mapimage"></div></div>'
 					})

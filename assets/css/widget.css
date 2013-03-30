@@ -6,7 +6,7 @@ body{
 #flipbox{
 	width: 100%;
 	height: 100%;
-	z-index: 43;
+	z-index: 70;
 }
 #side2{
 	width: 100%;
@@ -30,6 +30,14 @@ body{
 	position: relative;
 	top: -40px;
 	font-family: 'Roboto Condensed', sans-serif;
+}
+.aboutwhite {
+	width: 96%;
+	height: 100%;
+	position: relative;
+	top: -40px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#FFF;
 }
 h2{
 	color: #00ff00 !important;

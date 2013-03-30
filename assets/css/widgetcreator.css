@@ -36,7 +36,7 @@ button{
 	z-index: 33;
 }
 
-#color, #width, #height {
+#color, #width, #height, #textcolor {
 	float: right;
 	z-index: 33;
 }

@@ -16,8 +16,9 @@
 			var colorValue = document.getElementById('color').value;
 			var widthValue = document.getElementById('width').value;
 			var heightValue = document.getElementById('height').value;
+			var textcolor = document.getElementById('textcolor').value;
 			
-			document.getElementById('texta').value = '<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: '+widthValue+'px; height: '+heightValue+'px; background-color: '+colorValue+'; "></iframe>';
+			document.getElementById('texta').value = '<iframe src="http://a2hackforchange.org/webwidget.php?link='+textcolor+'" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: '+widthValue+'px; height: '+heightValue+'px; background-color: '+colorValue+'; "></iframe>';
 			document.getElementById("outsideiframe").innerHTML = '<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: '+widthValue+'px; height: '+heightValue+'px; background-color: '+colorValue+'; "></iframe>';
 		});
 		});
@@ -31,8 +32,13 @@
 		<div id="acontrolls">
 		
 			Background Color:<input type="text" id="color" name="color" value="#FFF" size="7" maxlength="7" onfocus="(this.value = '#')">
+			<br/><br/>Text Color:<select id="textcolor">
+			  <option>Black</option>
+			  <option>White</option>
+			</select>
 			<br/><br/>Width:<input type="text" id="width" name="width" value="275" size="7" maxlength="7" onfocus="(this.value = '')">
 			<br/><br/>Height:<input type="text" id="height" name="height" value="410" size="7" maxlength="7" onfocus="(this.value = '')">
+			
 			<br/><br/><button id="asubmit">Calculate</button>
 			<div id="printcode">
 				<br>iframe Code:<br>
