@@ -11,7 +11,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Keania+One|Roboto+Condensed' rel='stylesheet' type='text/css'>
 		<script type-"text/javascript">
 		$(document).ready(function(){
-			document.getElementById('texta').value = '<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 410px; background-color: #FFF; "></iframe>';
+			document.getElementById('texta').value = '<iframe src="http://a2hackforchange.org/webwidget.php?link=black" scrolling="no" frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 410px; background-color: #FFF; "></iframe>';
 		$("#asubmit").click(function(){
 			var colorValue = document.getElementById('color').value;
 			var widthValue = document.getElementById('width').value;
@@ -32,8 +32,8 @@
 		<div id="acontrolls">
 		
 			Background Color:<input type="text" id="color" name="color" value="#FFF" size="7" maxlength="7" onfocus="(this.value = '#')">
-			<br/><br/>Text Color:<select id="textcolor">
-			  <option value="black">Black</option>
+			<br/><br/>Text Color:<select id="textcolor" >
+			  <option value="black">Black&nbsp;&nbsp;&nbsp;&nbsp;</option>
 			  <option value="white">White</option>
 			</select>
 			<br/><br/>Width:<input type="text" id="width" name="width" value="275" size="7" maxlength="7" onfocus="(this.value = '')">
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 		<div id="outsideiframe">
-			<iframe src="http://a2hackforchange.org/webwidget.php" scrolling="no"  frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 410px; background-color: #FFF; "></iframe>
+			<iframe src="http://a2hackforchange.org/webwidget.php?link=black" scrolling="no"  frameborder="0" border="0" cellspacing="0" style="border-style: none; width: 275px; height: 410px; background-color: #FFF; "></iframe>
 		</div>
 		
 	</div>

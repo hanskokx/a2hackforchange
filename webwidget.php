@@ -19,6 +19,11 @@
 			if (link == "white") {
 			document.getElementById("abouttext").className = "aboutwhite";
 			}
+			if(link == "black"){
+				document.getElementById("abouttext").className = "aboutblack";
+				
+			}
+
 			$('#side2').hide();
 			i=0;
 			$('body').click(function() {
@@ -54,6 +59,7 @@
 			<div id="side2">
 				<div id="logo"></div>
 				<div id="mapimage"></div>
+
 			</div>
 		<div id="front"></div>
 		

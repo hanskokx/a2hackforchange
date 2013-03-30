@@ -39,6 +39,14 @@ body{
 	font-family: 'Roboto Condensed', sans-serif;
 	color:#FFF;
 }
+.aboutblack {
+	width: 96%;
+	height: 100%;
+	position: relative;
+	top: -40px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color:#000;
+}
 h2{
 	color: #00ff00 !important;
 	font-family: 'Keania One', cursive;
