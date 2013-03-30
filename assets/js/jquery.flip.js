@@ -144,7 +144,7 @@ $.fn.flip = function(settings){
 				  return "bt";
 				}
 			})(settings.direction),
-			bgColor: acceptHexColor(settings.color) || "#999",
+			bgColor: acceptHexColor(settings.color) || "#008B8B",
 			color: acceptHexColor(settings.bgColor) || $this.css("background-color"),
 			content: $this.html(),
 			speed: settings.speed || 500,
@@ -164,7 +164,7 @@ $.fn.flip = function(settings){
             bgColor: acceptHexColor(settings.bgColor) || $this.css("background-color"),
             fontSize: $this.css("font-size") || "12px",
             direction: settings.direction || "tb",
-            toColor: acceptHexColor(settings.color) || "#999",
+            toColor: acceptHexColor(settings.color) || "#008B8B",
             speed: settings.speed || 500,
             top: $this.offset().top,
             left: $this.offset().left,
@@ -218,8 +218,8 @@ $.fn.flip = function(settings){
                     borderLeftWidth: waist,
                     borderRightWidth: waist,
                     borderBottomWidth: 0,
-                    borderTopColor: '#999',
-                    borderBottomColor: '#999',
+                    borderTopColor: '#008B8B',
+                    borderBottomColor: '#008B8B',
                     top: (flipObj.top+(flipObj.height/2)),
                     left: (flipObj.left-waist)},
                 "second": {
@@ -244,8 +244,8 @@ $.fn.flip = function(settings){
                     borderLeftWidth: 0,
                     borderRightWidth: 0,
                     borderBottomWidth: waist,
-                    borderLeftColor: '#999',
-                    borderRightColor: '#999',
+                    borderLeftColor: '#008B8B',
+                    borderRightColor: '#008B8B',
                     top: flipObj.top-waist,
                     left: flipObj.left+(flipObj.width/2)},
                 "second": {

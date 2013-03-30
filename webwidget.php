@@ -29,9 +29,7 @@
 						content:'<div id="side2"><div id="logo"></div><div id="mapimage"></div></div>'
 					})
 			        }
-			    
-        		
-				
+
         	});
 		});
 		</script>
