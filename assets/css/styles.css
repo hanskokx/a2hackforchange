@@ -256,7 +256,6 @@ h2 {
 .sponsor {
 	display: inline-block;
 	float: left;
-	text-align: center;
 	padding: 20px auto;
 	margin-top: 50px;
 	margin-bottom: 65px;
@@ -269,7 +268,31 @@ h2 {
 }
 
 #intel {
-	background-image: url('http://www.hackforchange.org/sites/default/files/styles/sponsor_logo/public/content/organizations/logos/intel_smalllogo.png?itok=6hR3k1aR');
+	background-image: url('../images/sponsors/intel_smalllogo.png');
 	width: 210px;
 	height: 139px;
+}
+
+#codeforgood {
+	background-image: url('../images/sponsors/cfglogo.png');
+	width: 210px;
+	height: 131px;
+}
+
+#secondmuse {
+	background-image: url('../images/sponsors/logo_sm_transparentblue.png');
+	width: 175px;
+	height: 80px;
+}
+
+#innovationendeavors {
+	background-image: url('../images/sponsors/Innovation_endeavors_logo.jpg');
+	width: 308px;
+	height: 95px;
+}
+
+#rallyforimpact {
+	background-image: url('../images/sponsors/rfi-logo.png');
+	width: 234px;
+	height: 38px;
 }
