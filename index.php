@@ -249,7 +249,7 @@
 			<span class="text" style="margin-bottom: 165px;">
 				<a href='http://www.intel.com'><span class="sponsor" id="intel"></span></a>
 			</span>
-<p style="line-height: 35px">&nbsp;</p>
+<p style="line-height: 100px">&nbsp;</p>
 
 </div><!-- end content -->
 
