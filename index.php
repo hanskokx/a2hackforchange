@@ -253,7 +253,7 @@
 				<a href='http://www.innovationendeavors.com/'><span class="sponsor" id="innovationendeavors"></span></a>
 				<a href='http://www.rallydev.com/community/rallyforimpact/'><span class="sponsor" id="rallyforimpact"></span></a>
 			</span>
-<p style="line-height: 100px">&nbsp;</p>
+<p style="line-height: 50px">&nbsp;</p>
 
 </div><!-- end content -->
 
