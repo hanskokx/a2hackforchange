@@ -241,12 +241,12 @@
 
 		<div class="divider"></div>
 		<div class="banner">Local Sponsors</div>
-			<span class="text" style="margin-bottom: 65px;">
+			<span class="text" style="margin-bottom: 165px;">
 				<a href='http://zinio.com/?WT.mc_id=ACQ%C2%A0_SOC_BLOG'><span class="sponsor" id="zinio"></span></a>
 			</span>
 
 		<div class="banner">National Sponsors</div>
-			<span class="text">
+			<span class="text" style="margin-bottom: 165px;">
 				<a href='http://www.intel.com'><span class="sponsor" id="intel"></span></a>
 			</span>
 <p style="line-height: 35px">&nbsp;</p>
