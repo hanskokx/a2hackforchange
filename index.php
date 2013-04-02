@@ -240,9 +240,14 @@
 		</span>
 
 		<div class="divider"></div>
-		<div class="banner">Sponsors</div>
+		<div class="banner">Local Sponsors</div>
 			<span class="text">
 				<a href='http://zinio.com/?WT.mc_id=ACQ%C2%A0_SOC_BLOG'><span class="sponsor" id="zinio"></span></a>
+			</span>
+
+		<div class="banner">National Sponsors</div>
+			<span class="text">
+				<a href='http://www.intel.com'><span class="sponsor" id="intel"></span></a>
 			</span>
 
 <p style="line-height: 35px">&nbsp;</p>
