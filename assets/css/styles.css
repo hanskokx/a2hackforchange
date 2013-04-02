@@ -259,6 +259,8 @@ h2 {
 	padding: 20px auto;
 	margin-top: 50px;
 	margin-bottom: 65px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #zinio {
@@ -269,30 +271,30 @@ h2 {
 
 #intel {
 	background-image: url('../images/sponsors/intel_smalllogo.png');
-	width: 210px;
+	width: 300px;
 	height: 139px;
 }
 
 #codeforgood {
 	background-image: url('../images/sponsors/cfglogo.png');
-	width: 210px;
+	width: 300px;
 	height: 131px;
 }
 
 #secondmuse {
 	background-image: url('../images/sponsors/logo_sm_transparentblue.png');
-	width: 175px;
+	width: 300px;
 	height: 80px;
 }
 
 #innovationendeavors {
 	background-image: url('../images/sponsors/Innovation_endeavors_logo.jpg');
-	width: 308px;
+	width: 300px;
 	height: 95px;
 }
 
 #rallyforimpact {
 	background-image: url('../images/sponsors/rfi-logo.png');
-	width: 234px;
+	width: 300px;
 	height: 38px;
 }
