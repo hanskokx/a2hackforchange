@@ -25,6 +25,7 @@
 		</script>
 	</head>
 	<body>
+		<!-- use media queries to shrink the logo and button -->
 	<div id="centercontent">
 
 		<a href="http://a2hackforchange.org" target="_self"><img src="assets/images/logo.png" alt="national day of social hacking" height="60px" width="260px"></a>

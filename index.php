@@ -246,10 +246,13 @@
 			</span>
 
 		<div class="banner">National Sponsors</div>
-			<span class="text" style="margin-bottom: 165px;">
+			<span class="text" id="sponsorsone" style="margin-bottom: 165px;">
 				<a href='http://www.intel.com'><span class="sponsor" id="intel"></span></a>
 				<a href='http://blogs.intel.com/csr/'><span class="sponsor" id="codeforgood"></span></a>
 				<a href='http://www.secondmuse.com/'><span class="sponsor" id="secondmuse"></span></a>
+			</span>
+			<span class="text" id="sponsorstwo" style="margin-bottom: 165px;">
+				
 				<a href='http://www.innovationendeavors.com/'><span class="sponsor" id="innovationendeavors"></span></a>
 				<a href='http://www.rallydev.com/community/rallyforimpact/'><span class="sponsor" id="rallyforimpact"></span></a>
 			</span>

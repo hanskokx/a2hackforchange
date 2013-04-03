@@ -59,7 +59,7 @@ h2 {
 
 .text {
 	width: 75%;
-	max-width: 800px;
+	max-width: 900px;
 	min-width: 200px;
 	display: block;
 	position: relative;
@@ -261,38 +261,61 @@ h2 {
 	background-repeat: no-repeat;
 }
 
+#sponsorsone {
+	position: relative;
+	width: 700px;
+	height: 3px;
+}
+#sponsorstwo {
+	position: relative;
+	width: 760px;
+	height: 3px;
+}
+
 #zinio {
 	background-image: url('../images/sponsors/Zinio.jpg');
 	width: 120px;
 	height: 60px;
+
 }
 
 #intel {
 	background-image: url('../images/sponsors/intel_smalllogo.png');
 	width: 210px;
 	height: 139px;
+	margin: 10px;
+	float: left;
 }
 
 #codeforgood {
 	background-image: url('../images/sponsors/cfglogo.png');
 	width: 210px;
 	height: 131px;
+	margin: 10px;
+	float: left;
 }
 
 #secondmuse {
 	background-image: url('../images/sponsors/logo_sm_transparentblue.png');
 	width: 175px;
 	height: 80px;
+	margin: 10px;
+	float: left;
 }
 
 #innovationendeavors {
 	background-image: url('../images/sponsors/Innovation_endeavors_logo.jpg');
 	width: 308px;
 	height: 95px;
+	margin: 10px;
+	float: left;
 }
 
 #rallyforimpact {
 	background-image: url('../images/sponsors/rfi-logo.png');
 	width: 234px;
 	height: 38px;
+	margin: 10px;
+	margin-top: 33px;
+	float: left;
 }
