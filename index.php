@@ -94,7 +94,7 @@
     
     		        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
     		        //update this text to update the infoWindow text in google maps, also note the title below for mouseover text
-    		        var contentString = '<h2>Tech Brewery</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
+    		        var contentString = '<h2>The Forge</h2><span>1327 Jones Drive, Ann Arbor, MI 48105</span>';
     
     		        var infowindow = new google.maps.InfoWindow({
     		            content: contentString
@@ -233,10 +233,10 @@
 				Looking to sponsor? Help organize? Volunteer your skills? Or, perhaps you're just looking for more information.  Whatever the case is, go ahead and <a href="mailto:&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#050;&#104;&#097;&#099;&#107;&#102;&#111;&#114;&#099;&#104;&#097;&#110;&#103;&#101;&#046;&#111;&#114;&#103;?subject=A2%20Hack%20for%20Change">send us an email</a>.
 			<h2>Who is leading A2 Hack for Change?</h2>
 				Lifelong tech enthusiast and Michigan resident, Hans Kokx.
-<!--			<h2 id="location">Where is the event going to be held?</h2>
-				A2 Hack for Change will be hosted at the Tech Brewery, at 1327 Jones Dr, Ann Arbor, MI.
+			<h2 id="location">Where is the event going to be held?</h2>
+				A2 Hack for Change will be hosted at the Forge, at 1327 Jones Dr, Ann Arbor, MI.
 				<center><div id="map-canvas"/></div></center>
--->
+
 		</span>
 
 		<div class="divider"></div>
