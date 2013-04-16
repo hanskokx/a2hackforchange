@@ -279,6 +279,13 @@ h2 {
 
 }
 
+#pillar {
+	background-image: url('../images/sponsors/pillar.jpg');
+	width: 190px;
+	height: 190px;
+
+}
+
 #intel {
 	background-image: url('../images/sponsors/intel_smalllogo.png');
 	width: 210px;
