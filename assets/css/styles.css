@@ -276,6 +276,7 @@ h2 {
 	background-image: url('../images/sponsors/Zinio.jpg');
 	width: 120px;
 	height: 60px;
+	margin: 10px;
 	float: left;
 }
 
@@ -283,6 +284,7 @@ h2 {
 	background-image: url('../images/sponsors/pillar.jpg');
 	width: 190px;
 	height: 190px;
+	margin: 10px;
 	float: left;
 }
 
