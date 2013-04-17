@@ -242,6 +242,7 @@
 		<div class="divider"></div>
 		<div class="banner">Local Sponsors</div>
 			<span class="text" style="margin-bottom: 55px;">
+				<a href='http://pillartechnology.com/'><span class="sponsor" id="pillar"></span></a>
 				<a href='http://zinio.com/?WT.mc_id=ACQ%C2%A0_SOC_BLOG'><span class="sponsor" id="zinio"></span></a>
 			</span>
 
