@@ -276,13 +276,14 @@ h2 {
 	background-image: url('../images/sponsors/Zinio.jpg');
 	width: 120px;
 	height: 60px;
-
+	float: left;
 }
 
 #pillar {
 	background-image: url('../images/sponsors/pillar.jpg');
 	width: 190px;
 	height: 190px;
+	float: left;
 }
 
 #intel {
