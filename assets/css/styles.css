@@ -261,11 +261,18 @@ h2 {
 	background-repeat: no-repeat;
 }
 
+#localsponsorsone {
+	position: relative;
+	width: 700px;
+	height: 3px;
+}
+
 #sponsorsone {
 	position: relative;
 	width: 700px;
 	height: 3px;
 }
+
 #sponsorstwo {
 	position: relative;
 	width: 760px;
