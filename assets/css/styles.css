@@ -283,20 +283,24 @@ h2 {
 	background-image: url('../images/sponsors/Zinio.jpg');
 	width: 120px;
 	height: 60px;
-
+	margin: 10px;
+	float: left;
 }
 
 #barracuda {
 	background-image: url('../images/sponsors/barracuda.jpg');
 	width: 250px;
 	height: 54px;
+	margin: 10px;
+	float: left;
 }
 
 #pillar {
 	background-image: url('../images/sponsors/pillar.jpg');
 	width: 190px;
 	height: 190px;
-
+	margin: 10px;
+	float: left;
 }
 
 #intel {
