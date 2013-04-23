@@ -279,6 +279,13 @@ h2 {
 
 }
 
+#barracuda {
+	background-image: url('../images/sponsors/barracuda.jpg');
+	width: 250;
+	height: 54px;
+
+}
+
 #pillar {
 	background-image: url('../images/sponsors/pillar.jpg');
 	width: 190px;
