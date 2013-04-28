@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 	<head>
-		<title>A2 Hack for Change</title>
+		<title>National Day of Civic Hacking - A2 Hack for Change</title>
+		<meta name="keywords" content="National Day of Civic Hacking, Hackathon, Hack, Ann Arbor, A2 Hack for Change">
+		<meta name="description" content="Ann Arbor is taking part in the National Day of Civic Hacking June 1-2, 2013. The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live.">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 			<!--[if lt IE 9]>
