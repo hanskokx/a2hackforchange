@@ -268,6 +268,13 @@ h2 {
 	text-align: center;
 }
 
+#localsponsorstwo {
+	position: relative;
+	width: 250px;
+	height: 3px;
+	text-align: center;
+}
+
 #sponsorsone {
 	position: relative;
 	width: 700px;
@@ -300,6 +307,14 @@ h2 {
 	background-image: url('../images/sponsors/pillar.jpg');
 	width: 190px;
 	height: 96px;
+	margin: 10px;
+	float: left;
+}
+
+#a2hosting {
+	background-image: url('../images/sponsors/a2hosting.jpg');
+	width: 220px;
+	height: 121px;
 	margin: 10px;
 	float: left;
 }
