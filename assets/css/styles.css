@@ -270,7 +270,7 @@ h2 {
 
 #localsponsorstwo {
 	position: relative;
-	width: 250px;
+	width: 460px;
 	height: 3px;
 	text-align: center;
 }
@@ -315,6 +315,14 @@ h2 {
 	background-image: url('../images/sponsors/a2hosting.jpg');
 	width: 220px;
 	height: 121px;
+	margin: 10px;
+	float: left;
+}
+
+#a2geeks {
+	background-image: url('../images/sponsors/at-a2geek_logo.png');
+	width: 208px;
+	height: 58px;
 	margin: 10px;
 	float: left;
 }

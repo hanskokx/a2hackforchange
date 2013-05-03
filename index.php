@@ -251,6 +251,7 @@
 				</span>				
 				<span class="text" id="localsponsorstwo" style="margin-bottom: 165px;">
 					<a href='http://a2hosting.com/'><span class="sponsor" id="a2hosting"></span></a>
+					<a href='http://a2geeks.org/'><span class="sponsor" id="a2geeks"></span></a>
 				</span>
 			</span>
 
