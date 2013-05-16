@@ -367,3 +367,11 @@ h2 {
 	margin-top: 33px;
 	float: left;
 }
+
+#socrata {
+	background-image: url('../images/sponsors/socrata_500.png');
+	width: 210px;
+	height: 126px;
+	margin: 10px;
+	float: left;
+}
