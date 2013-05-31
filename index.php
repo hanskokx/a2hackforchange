@@ -162,6 +162,8 @@
 		<span class="text">
 			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
 			<br /><br />
+			A2 Hack for Change will be taking place on Saturday from 9am until 6pm, and on Sunday from 9am until 5pm.
+			<br /><br />
 			The event will leverage the expertise and entrepreneurial spirit of those outside federal, state and local government to drive meaningful, technology-based solutions for federal, state and local government. It demonstrates what's possible when we all work together to strengthen our society and our lives. YOU can make a difference no matter where you live.
 			<br /><br />
 			Ann Arbor is proud to participate in this national event by hosting our very own A2 Hack for Change.  Occurring simultaneously with dozens of events throughout the country, we aim to show the rest of the world what Ann Arbor is made of.
