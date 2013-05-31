@@ -1,0 +1,78 @@
+<html>
+<head>
+<style>
+
+.box {
+	width: 350px;
+	height: 200px;
+	background: #fefcea; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmNlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMWRhMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #fefcea 0%, #f1da36 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefcea), color-stop(100%,#f1da36)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fefcea 0%,#f1da36 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fefcea 0%,#f1da36 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=0 ); /* IE6-8 */
+}
+
+	.knockout-around { position: relative; } .knockout-around:before, .knockout-around:after { content: ""; position: absolute; } .knockout-around:before { top: -3px; left: -3px; right: -3px; bottom: -3px; background-image: -webkit-gradient(radial, right top, 10, 90% 0%, 150, from(#000), to(transparent)); background-image: -webkit-radial-gradient(right top, 150px 230px, #000, transparent); background-image: -moz-radial-gradient(right top, farthest-corner, #000 0%, transparent 72%); z-index: -2; } .knockout-around:after { top: 0; left: 0; bottom: 0; right: 0; background: #a4b9ff; z-index: -1; }
+
+#what {
+	background-image:url("http://a2hackforchange.org/assets/images/logo_small.png");
+	background-size: cover;
+	height: 85px;
+}
+
+#calendar {
+	background-image: url(http://www.royalgorgetravel.com/sites/all/themes/royalgorgetravel/images/calendar_icon_large.png);
+	background-size: cover;
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-top: 8px;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+
+#pin {
+	background-image: url(http://082net.com/wp/wp-content/uploads/2007/09/marker.png);
+	background-size: cover;
+	width: 16px;
+	height: 26px;
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+#where {
+	margin-top: 15px;
+}
+</style>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+</head>
+
+<div class="box gradient knockout-around">
+	<div id="what"></div>
+	<div id="when">
+		<div id="calendar"></div>
+		<div id="saturday">Saturday, June 1st - <strong>9am-6pm</strong></div>
+		<div id="sunday">Sunday, June 2nd&nbsp; - <strong>9am-5pm</strong></div>
+	</div>
+	<div id="pin"></div>
+	<div id="where"><a href="https://www.google.com/maps/preview#!q=Forge+By+Pillar+Technology%2C+1327+Jones+Dr%2C+Ann+Arbor%2C+MI&data=!4m10!1m9!4m8!1m3!1d3962!2d-83.734507!3d42.292669!3m2!1i1920!2i1031!4f13.1">
+		<strong>The Forge</strong><br />1327 Jones Drive, Ann Arbor, MI 48105</a></div>
+</div>
+
+</html>
