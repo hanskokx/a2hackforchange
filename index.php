@@ -158,6 +158,7 @@
 
 <div id="content">
 	<p style="line-height: 150px">&nbsp;</p>
+	<center><iframe src="badge.html"></iframe></center> 
 	<h1 id="about">What's happening?</h1>
 		<span class="text">
 			The National Day of Civic Hacking is a national event that will take place June 1-2, 2013, in cities across the nation. The event will bring together citizens, software developers, and entrepreneurs from all over the nation to collaboratively create, build, and invent new solutions using publicly-released data, code and technology to solve challenges relevant to our neighborhoods, our cities, our states and our country. The National Day of Civic Hacking will provide citizens an opportunity to do what is most quintessentially American: roll up our sleeves, get involved and work together to improve our society.
