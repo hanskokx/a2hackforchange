@@ -19,10 +19,19 @@
 
 	.knockout-around { position: relative; } .knockout-around:before, .knockout-around:after { content: ""; position: absolute; } .knockout-around:before { top: -3px; left: -3px; right: -3px; bottom: -3px; background-image: -webkit-gradient(radial, right top, 10, 90% 0%, 150, from(#000), to(transparent)); background-image: -webkit-radial-gradient(right top, 150px 230px, #000, transparent); background-image: -moz-radial-gradient(right top, farthest-corner, #000 0%, transparent 72%); z-index: -2; } .knockout-around:after { top: 0; left: 0; bottom: 0; right: 0; background: #a4b9ff; z-index: -1; }
 
-#what {
+#logo {
 	background-image:url("http://a2hackforchange.org/assets/images/logo_small.png");
 	background-size: cover;
 	height: 85px;
+}
+
+#what {
+	font-weight: bold;
+	text-align: center;
+	font-size: 18pt;
+	color: #2165B2;
+	position: relative;
+	bottom: 5px;
 }
 
 #calendar {
@@ -45,13 +54,13 @@
 	height: 26px;
 	display: block;
 	float: left;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 15px;
 	margin-right: 5px;
 }
 
 #where {
-	margin-top: 15px;
+	margin-top: 5px;
 }
 </style>
 <!--[if gte IE 9]>
@@ -64,7 +73,8 @@
 </head>
 
 <div class="box gradient knockout-around">
-	<div id="what"></div>
+	<div id="logo"></div>
+	<div id="what">A2 Hack for Change</div>
 	<div id="when">
 		<div id="calendar"></div>
 		<div id="saturday">Saturday, June 1st - <strong>9am-6pm</strong></div>
